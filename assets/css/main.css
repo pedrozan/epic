@@ -1,6 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
 
 /***********************************
@@ -10,68 +10,77 @@ body {
  ***********************************/
 
 .topnav {
-    background-color: #333;
-    position: fixed;
-    width: 100%;
-    height: 100px;
-    top: 0;
-    left: 0;
-    background-image: url("../img/dusk.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 99;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-image: url("../img/dusk.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 99;
 }
 
 .topnav .menu {
-    width: 75%;
-    margin: 20px auto 0;
+  width: 75%;
+  margin: 20px auto 0;
 }
 
 .topnav .general-menu {
-    width: 688px;
+  width: 688px;
 }
 
 .topnav .general-menu a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: #d98630;
-    text-transform: uppercase;
-    border-radius: 2px;
-    margin-left: 6px;
-    margin-top: 6px;
-    width: 166px;
-    height: 20px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #d98630;
+  text-transform: uppercase;
+  border-radius: 2px;
+  margin-left: 6px;
+  margin-top: 6px;
+  width: 166px;
+  height: 20px;
 }
 
 .topnav .general-menu.clas {
-    width: auto;
+  width: auto;
 }
 
 .topnav .general-menu.clas a {
-    height: 46px;
-    margin-top: -20px;
-    line-height: 46px;
+  height: 46px;
+  margin-top: -20px;
+  line-height: 46px;
 }
 
 .topnav .general-menu a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 
 .logo {
-    background-image: url("../img/logo corvo-01.png");
-    height: 145px;
-    z-index: 999;
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 24px;
-    margin-left: 76%;
+  background-image: url("../img/logo corvo-01.png");
+  height: 145px;
+  z-index: 999;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 24px;
+  margin-left: 76%;
+}
+
+/***********************************
+ *
+ * Body
+ *
+ ***********************************/
+.body {
+  margin-top: 169px;
 }
 
 /***********************************
@@ -81,92 +90,99 @@ body {
  ***********************************/
 
 .banner {
-    background-image: url("../img/mulher-com-drakkar.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 566px;
-    width: 100%;
-    top: 100px;
-    left: 0;
-    border: 0;
-    float: right;
-    margin: -69px 0 0;
+  background-image: url("../img/mulher-com-drakkar.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 566px;
+  width: 100%;
+  top: 100px;
+  left: 0;
+  border: 0;
+  float: right;
+  margin: -69px 0 0;
 }
 
 .cta {
-    background: rgba(240,240,240, 0.8);
-    width: 626px;
-    height: 430px;
-    border-radius: 12px;
-    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
-    margin-left: 84px;
+  background: rgba(240, 240, 240, 0.8);
+  width: 626px;
+  height: 430px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+  margin-left: 84px;
 }
 
 .cta h2 {
-    text-transform: uppercase;
-    font-size: 32px;
-    font-weight: 400;
-    letter-spacing: 5px;
-    text-align: center;
-    padding-top: 25px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-top: 25px;
 }
 
 .cta .card {
-    background: rgba(225,155,76, 1);
-    width: 586px;
-    height: 310px;
-    border-radius: 12px;
-    opacity: 1;
-    margin-left: 20px;
+  background: rgba(225, 155, 76, 1);
+  width: 586px;
+  height: 310px;
+  border-radius: 12px;
+  opacity: 1;
+  margin-left: 20px;
 }
 
 .cta .card .title {
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 26px;
-    letter-spacing: 3px;
-    padding-top: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 26px;
+  letter-spacing: 3px;
+  padding-top: 12px;
 }
 
 .cta .card .img {
-    float: left;
+  float: left;
+  height: 262px;
+  overflow: hidden;
 }
 
 .cta .card .img img {
-    width: 336px;
-    padding-top: 10px;
+  width: 336px;
+  padding-top: 10px;
+}
+
+.content button {
+    margin-top: 24px;
+    cursor: pointer;
 }
 
 .cta .card .content {
-    width: 250px;
-    background: #fff;
-    float: right;
-    height: 252px;
-    margin-top: 10px;
-    text-align: center;
+  width: 250px;
+  background: #fff;
+  float: right;
+  height: 252px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .cta .card .content h1 {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 400;
-    margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 10px;
 }
 
 .cta .card .content .local img {
-    padding-top: 20px;
-    padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .cta .card .content .details {
-    background: #fff;
-    border: 1px solid #000;
-    border-radius: 5px;
-    width: 226px;
-    height: 33px;
-    text-transform: uppercase;
-    font-size: 14px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 226px;
+  height: 33px;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 /***********************************
@@ -176,11 +192,11 @@ body {
  ***********************************/
 
 .schedule {
-    background-image: url("../img/dusk.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    float: right;
+  background-image: url("../img/dusk.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
 }
 
 /***********************************
@@ -190,47 +206,47 @@ body {
  ***********************************/
 
 .about {
-    background-image: url("../img/vikings.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    float: right;
-    padding-bottom: 40px;
+  background-image: url("../img/vikings.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  float: right;
+  padding-bottom: 40px;
 }
 
 .about .card {
-    background: rgba(240,240,240, 0.8);
-    width: 528px;
-    height: auto;
-    margin-left: 80px;
-    margin-top: 60px;
-    padding-bottom: 20px;
+  background: rgba(240, 240, 240, 0.8);
+  width: 528px;
+  height: auto;
+  margin-left: 80px;
+  margin-top: 60px;
+  padding-bottom: 20px;
 }
 
 .about .card h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 24px;
-    letter-spacing: 3px;
-    padding-top: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 3px;
+  padding-top: 32px;
 }
 
 .about .card h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 .about .card p {
-    font-weight: 400;
-    font-size: 16px;
-    padding-top: 12px;
-    padding-left: 34px;
-    padding-right: 34px;
-    line-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-left: 34px;
+  padding-right: 34px;
+  line-height: 20px;
 }
 
 /***********************************
@@ -240,78 +256,155 @@ body {
  ***********************************/
 
 .team {
-    background: #ffffff;
-    width: 100%;
-    height: 100px;
-    float: right;
-    text-align: center;
+  background: #ffffff;
+  width: 100%;
+  height: 100px;
+  float: right;
+  text-align: center;
 }
 
 .team .team-member {
-    float: right;
+  float: right;
 }
 
-.team .team-member img{
-    width: 50px;
-    height: 100px;
+.team .team-member img {
+  width: 50px;
+  height: 100px;
 }
 
 .team .title h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 3px;
 }
 
 .team .thumbs {
-    display: inline-block;
+  display: inline-block;
 }
 
 .team .thumbs .team-member {
-    float: right;
-    width: 220px;
-    margin-left: 20px;
+  float: right;
+  width: 220px;
+  margin-left: 20px;
 }
 
 .team .thumbs .team-member h2 {
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team .thumbs .team-member h3 {
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    text-transform: capitalize;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team .thumbs .team-member #member-1 {
-    background-image: url("../img/Andrei%20Beer%20P&B.jpg");
-    width: 220px;
-    height: 220px;
-    background-size: cover;
+  background-image: url("../img/Andrei%20Beer%20P&B.jpg");
+  width: 220px;
+  height: 220px;
+  background-size: cover;
 }
 
 .team .thumbs .team-member #member-2 {
-    background-image: url("../img/Andrei%20Beer%20P&B.jpg");
-    width: 220px;
-    height: 220px;
-    background-size: cover;
+  background-image: url("../img/Andrei%20Beer%20P&B.jpg");
+  width: 220px;
+  height: 220px;
+  background-size: cover;
 }
 
 .team .thumbs .team-member #member-3 {
-    background-image: url("../img/Andrei%20Beer%20P&B.jpg");
-    width: 220px;
-    height: 220px;
-    background-size: cover;
+  background-image: url("../img/Andrei%20Beer%20P&B.jpg");
+  width: 220px;
+  height: 220px;
+  background-size: cover;
 }
 
 .team .thumbs .team-member #member-4 {
-    background-image: url("../img/Andrei%20Beer%20P&B.jpg");
-    width: 220px;
-    height: 220px;
-    background-size: cover;
+  background-image: url("../img/Andrei%20Beer%20P&B.jpg");
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+}
+
+/*****************************
+ *
+ * Vendor
+ *
+ *****************************/
+time.icon {
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 3em;
+  height: 3em;
+  background-color: #fff;
+  border-radius: 0.2em;
+  overflow: hidden;
+  border: solid #b9b9b9 1px;
+  float: left;
+}
+
+time.icon * {
+  display: block;
+  width: 100%;
+  font-size: 0.7em;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+}
+
+/* Month */
+time.icon strong {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background-color: #ff4f59;
+}
+
+/* Day */
+time.icon em {
+  position: absolute;
+  bottom: 0.3em;
+  color: #fd9f1b;
+}
+
+/* number */
+time.icon span {
+  font-size: 1.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.4em;
+  color: #2f2f2f;
+}
+
+.date-label {
+  width: 210px;
+  background: antiquewhite;
+  margin-top: 52px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date-label .time-wrapper {
+  margin-top: 17px;
+  display: table;
+  position: absolute;
+}
+
+.date-label .location {
+  float: right;
+  width: 136px;
+  font-size: 0.7em;
+  text-align: left;
+}
+
+.date-label .location h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: small;
 }
